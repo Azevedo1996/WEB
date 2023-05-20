@@ -3,7 +3,7 @@ Este é um formulário de cadastro de desenvolvedores (DEVs).
 Os usuários podem preencher suas informações pessoais e de desenvolvimento para se cadastrar. 
 O formulário possui campos para nome, sobrenome, e-mail, desenvolvimento web, senioridade, tecnologias utilizadas e uma caixa de texto para compartilhar a experiência.
 Ao realizar o cadastro será computado em um banco de dados 'MySQL'.
-Existe formas de consultar este banco de dados, po´rem apenas pessoas autorizadas previament eno banco de dados poderão realizar esta consulta.
+Existe formas de consultar este banco de dados, porém apenas pessoas autorizadas previament eno banco de dados poderão realizar esta consulta.
 O 'processar_login.php' faz a validação se a pessoa esta autorizada ou não.
 
 
