@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <!-- Metadados -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Título da página (aparece na aba) -->
+    <title>Consulta de DEVs</title>
+
+    <!-- CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <?php
+    session_start();
+
+    // Verifica se o usuário está autenticado
+    if (!isset($_SESSION['autenticado']) || !$_SESSION['autenticado']) {
+        header('Location: login.html');
+        exit;
+    }
+
+    // Resto do código para exibir os registros do banco de dados
+    // ...
+    ?>
+
+    <div class="container">
+        <h1>Consulta de DEVs</h1>
+        <!-- Conteúdo da consulta -->
+    </div>
+</body>
+</html>
